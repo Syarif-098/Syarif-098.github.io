@@ -11,7 +11,7 @@ body {
 
 nav {
     display: flex;
-    background-color: rgb(146, 100, 189);
+    background-color: rgb(33, 43, 192);
     color: white;
     justify-content: space-around;
     padding: 20px 0;
@@ -38,34 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(38, 23, 53);
-}
-
-.dropdown-1 {
-    display: none;
-}
-
-nav ul li:hover .dropdown-1 {
-    display: flex;
-    background-color: rgb(146, 100, 189);
-    flex-direction: column;
-    width: 120px;
-    height: auto;
-    align-items: inherit;
-}
-
-.dropdown-2 {
-    display: none;
-}
-
-nav ul li .dropdown-1 li:hover .dropdown-2 {
-    display: flex;
-    background-color: rgb(146, 100, 189);
-    flex-direction: column;
-    width: 120px;
-    height: auto;
-    align-items: inherit;
-    z-index: 1;
+    color: rgb(24, 20, 80);
 }
 
 .menu-toggle {
@@ -144,7 +117,7 @@ nav ul li .dropdown-1 li:hover .dropdown-2 {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(146, 100, 189);
+        background-color: rgb(33, 43, 192);
         z-index: -1;
         transform: translateX(100%);
         transition: all 1s;
